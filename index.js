@@ -6,7 +6,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   const obj = lodash.cloneDeep({
-    message: 'Hello, DevSecOps by Suryansh Mathema!'
+    message: 'Hello, DevSecOps by Suryansh Mathema - NEW!'
   });
 
   const pattern = minimatch('.js', '.js');
